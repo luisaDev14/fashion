@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  
+}
+
+#fondo-fashion {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./img/fashion_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#header-fashion {
+  display: flex;
+  justify-content: space-between;
+}
+
+#img-fashion {
+  margin-left: 33px;
+  margin-top: 29px;
+}
+
+#logo-header {
+  width: 31px;
+  height: 16px;
+  display: flex;
+  margin-top: 54px;
+  margin-right: 26px;
+  
+}
+.svg-icon-menu {
+  width: 30px;
+  height: 16px;
+  
+}
+
+#main-fashion {
+    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#sect-fashion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#div-inner {
+  width: 361px;
+  display: flex;
+}
+
+#inner-h1 {
+  font-family: "Libre Baskerville";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 62px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+#div-soon {
+  width: 183px;
+  height: 30px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#soon-h2 {
+    margin: 0;
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+#p-la {
+    margin: 0;
+  margin-top: 14px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+#sect-p-join {
+  width: 322px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 22px;
+  
+}
+
+#div-join {
+  width: 322px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 22px;
+  
+}
+
+#p-join {
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+}
+
+
+
+#email {
+  text-align: left;
+  width: 320px;
+  height: 44px;
+  background-color: transparent;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+  color: rgba(255, 255, 255, 0.5);
+  border: solid 1px white;
+}
+
+#up {
+  width: 320px;
+  height: 44px;
+  margin-top: 6px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #2c2c2c;
+  border: none;
+}
+
+#footer-fashion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div-svg-footer {
+    width: 129px;
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 49px;
+  }
+  
+  .svg-icon {
+    width: 34px;
+    height: 34px;
+  }
+  
+
+  /* 768px BREAKPOINT */
+@media (min-width: 768px) {
+
+}
+
+/* 1024px BREAKPOINT */
+@media (min-width: 1024px) {
+    #div-inner {
+        width: 800px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+      }
+
+      #inner-h1{
+        margin: 0;
+        margin-left: 16px;
+      }
+
+      #main-fashion{
+        margin-top: 150px;
+      }
+
+      #sect-p-join {
+        margin: 0;
+        
+      }
+
+      #p-la{
+        margin-bottom: 98px;
+        margin-top: 16px;
+      }
+      #div-join{
+        width: 588px;
+        height: 20px;
+      }
+
+      #p-join{
+        font-weight: 400;
+font-size: 15px;
+line-height: 19px;
+      }
+
+      #fondo-fashion{
+        height: 100vh;
+      }
+
+      #form-button{
+        width: 468px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+
+      }
+
+      #up{
+        width: 123px;
+        margin: 0;
+      }
+
+      #email{
+        width: 347px;
+      }
+
+      #div-svg-footer{
+        margin-bottom: 40px;
+      }
+}
+
+/* 1440px BREAKPOINT */
+@media (min-width: 1440px) {
+    #div-inner{
+        width: 944px;
+    }
+}
